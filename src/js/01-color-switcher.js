@@ -7,10 +7,10 @@ const buttonStop = document.querySelector('[data-stop]');
 let backgrounColorID = null;
 
 const getBackgraundColor = () => {
-    backgrounColorID = setInterval(() => {
-        document.body.style.backgroundColor = getRandomHexColor();
-       buttonStart.setAttribute('disabled', 'true')  
-    }, 1000)
+  backgrounColorID = setInterval(() => {
+    document.body.style.backgroundColor = getRandomHexColor();
+         
+  }, 1000);buttonStart.setAttribute('disabled', 'true')
       
 }; 
 
